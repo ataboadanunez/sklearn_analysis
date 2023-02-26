@@ -14,6 +14,10 @@ For this analysis, we use data from Monte Carlo simulations of air showers being
 - Arrival direction or zenith angle of the primary cosmic ray: $\theta$
 - Signals of Water-Cherenkov Detectors ($S_\mathrm{WCD}$) and Scintillator Surface Detectors ($S_\mathrm{SSD}$) produced by shower particles
 
+An example of the input data used for the analysis is shown in the figure below:
 
+![input](plots/input_data.png)
+
+Each point corresponds with an _event_ of $10^{20}~\mathrm{eV}$ of energy and zenith angles below $38^\circ$. The _x_-axis is the reconstructed signal at 1000 m to the shower core using Water Cherenkov Detectors (WCD) and the _y_-axis the corresponding signal using Scintillator Surface Detectors (SSD). Using two detectors of different characteristics may help us to separate events of two different particles, in this case proton ($A = 1$) and iron ($A = 56$). 
 
 
